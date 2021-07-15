@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Zen+Tokyo+Zoo&display=swap');
+
+#logo {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: #D5E616;
+}
+
+#assinatura {
+    font-family: 'Megrim', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #D5E616;
+}

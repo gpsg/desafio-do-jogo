@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="GPSG"/>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- bootstrap icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<!-- my syle -->
+    <link rel="stylesheet" href="style.css">
+
     <title>Jogo da Cobra</title>
 </head>
-<body>
-    
+<body class="d-flex h-100 text-center bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-1 mx-auto flex-column">
+        <header class="d-flex p-1 mx-auto flex-wrap align-items-center justify-content-center">
+            <h1 id="logo" class="float-md-start mb-0">Snake Game</h1>
+        </header>
+        <main class="px-3">
+            <div class="container">
+                <canvas id="snake" width="512" height="512"></canvas>
+            </div>
+        </main>
+        <footer class="mt-auto h-100 text-white-50">
+            <p>Desenvolvido por <a id="assinatura" href="https://github.com/gpsg" target="_blank">GPSG</a></p>
+        </footer>
+    </div>
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- My Script -->
+    <script src="script.js"></script>
 </body>
 </html>
